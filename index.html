@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Resume | Coming Soon</title>
+  <!-- Google Font: Comic Neue -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -27,7 +29,7 @@
       height: 100%;
       background: url('assets/images/coding-1853305_1920.jpg') no-repeat center center fixed;
       background-size: cover;
-      filter: blur(4px);
+      filter: blur(8px);
       z-index: -1;
     }
     .content {
@@ -38,11 +40,25 @@
       justify-content: center;
       align-items: center;
       padding: 0 20px;
-      background-color: rgba(0,0,0,0.4); /* optional overlay for readability */
+      background-color: rgba(0,0,0,0.4);
     }
     h1 {
-      font-size: 2.5em;
+      font-family: 'Comic Neue', cursive;
+      font-size: 3em;
       margin-bottom: 0.5em;
+      display: inline-block;
+    }
+    /* Tilt effect on each letter */
+    h1 span {
+      display: inline-block;
+      transform: rotate(0deg);
+      transition: transform 0.2s;
+    }
+    h1 span:nth-child(odd) {
+      transform: rotate(-10deg);
+    }
+    h1 span:nth-child(even) {
+      transform: rotate(8deg);
     }
     p {
       font-size: 1em;
@@ -66,9 +82,15 @@
 </head>
 <body>
   <div class="content">
-    <h1>Digital Resume</h1>
-    <p>This GitHub repository will soon host a fully interactive digital résumé showcasing experience, skills and projects.</p>
-    <a href="https://github.com/YOUR-USERNAME">Visit My GitHub Profile</a>
+    <h1 id="title">Digital Resume</h1>
+    <p>This GitHub repository will soon host a fully interactive digital résumé showcasing experience, skills, and projects.</p>
+    <a href="https://github.com/guilliharold">Visit My GitHub Profile</a>
   </div>
+
+  <script>
+    // Wrap each letter in a span for tilt effect
+    const title = document.getElementById('title');
+    title.innerHTML = title.textContent.split('').map(char => `<span>${char}</span>`).join('');
+  </script>
 </body>
 </html>
