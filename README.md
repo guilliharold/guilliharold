@@ -4,6 +4,4 @@ I’m a motivated individual with a strong interest in technology and problem-so
 
 I have a keen interest in emergency services and actively contribute as a volunteer firefighter, which has strengthened my teamwork, leadership and decision-making skills under pressure.
 
-I enjoy learning new technologies, working on creative digital projects and finding efficient solutions to challenges.
-
-Outside of work and study, I’m a die-hard Holden fanatic, passionate about everything related to the brand and its vehicles.
+I enjoy learning new technologies, working on creative digital projects and finding efficient solutions to challenges and outside of work and study, I’m a die-hard Holden fanatic, passionate about everything related to the brand and its vehicles.
