@@ -1,7 +1,8 @@
-## Hello There 👋
+## Hi, I’m Harold!
 
-Hi, I’m Harold! I’m an IT Trainee with a Certificate III in Information Technology and currently studying Certificate IV in Information Technology. Beyond tech, I’m a proud volunteer firefighter with a strong passion for fire and emergency services.
+I’m an IT Trainee with a Certificate III in Information Technology and currently studying for my Certificate IV in Information Technology. I enjoy learning new tech skills and applying them to real-world challenges.
+Outside of IT, I’m a volunteer firefighter with a strong passion for fire and emergency services. Giving back to my community and being part of a team that helps others is something I truly value.
 
-When I’m not working or volunteering, you’ll likely find me indulging my love for cars, especially as a fan and owner of the iconic Holden brand.
+When I’m not working or volunteering, I indulge my love of cars—particularly as a fan and owner of the iconic Holden Commodore.
 
-I enjoy learning, problem-solving and contributing wherever I can—both in IT and in the community.
+I thrive in environments where I can learn, problem-solve and make a positive impact.
