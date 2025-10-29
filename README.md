@@ -5,5 +5,3 @@ I’m an IT Trainee with a Certificate III in Information Technology and current
 Outside of IT, I’m a volunteer firefighter with a strong passion for fire and emergency services. Giving back to my community and being part of a team that helps others is something I truly value.
 
 When I’m not working or volunteering, I indulge my love of cars—particularly as a fan and owner of the iconic Holden Commodore.
-
-I thrive in environments where I can learn, problem-solve and make a positive impact.
