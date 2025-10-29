@@ -26,20 +26,54 @@
             z-index: -1;
         }
 
+        /* Modernized Navbar */
         nav {
-            background-color: rgba(36, 41, 46, 0.9);
-            color: #fff;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             position: sticky;
             top: 0;
             z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(36, 41, 46, 0.7);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: background 0.3s ease;
         }
 
-        nav a { color: #fff; text-decoration: none; margin-left: 1.5rem; font-weight: 500; }
-        nav a:hover { text-decoration: underline; }
+        nav .logo {
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        nav .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        nav .nav-links a::after {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: -3px;
+            left: 0;
+            background-color: #36c5f0;
+            transition: width 0.3s ease;
+        }
+
+        nav .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        nav .nav-links a:hover {
+            color: #36c5f0;
+        }
 
         .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
 
@@ -80,8 +114,8 @@
         }
 
         footer .attribution {
-            font-size: 0.7rem; /* smaller than normal footer text */
-            color: #ccc;       /* subtle lighter color */
+            font-size: 0.7rem;
+            color: #ccc;
         }
 
         html { scroll-behavior: smooth; }
@@ -90,8 +124,8 @@
 <body>
 
     <nav>
-        <div>Harold Guilline</div>
-        <div>
+        <div class="logo">Harold Guilline</div>
+        <div class="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
