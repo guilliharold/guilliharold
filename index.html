@@ -88,9 +88,12 @@
   </div>
 
   <script>
-    // Wrap each letter in a span for tilt effect
+    // Wrap each letter in a span and preserve space between words
     const title = document.getElementById('title');
-    title.innerHTML = title.textContent.split('').map(char => `<span>${char}</span>`).join('');
+    title.innerHTML = title.textContent
+      .split('')
+      .map(char => char === ' ' ? '&nbsp;&nbsp;' : `<span>${char}</span>`) // double space for wider gap
+      .join('');
   </script>
 </body>
 </html>
