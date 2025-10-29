@@ -4,54 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About Me page for my GitHub site">
-    <title>About Me</title>
+    <title>Harold Guill - About Me</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            background-color: #f5f5f5;
-            color: #333;
+            color: #fff;
+            background: url('assets/images/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Add semi-transparent overlay for readability */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: -1;
+        }
+
+        nav {
+            background-color: rgba(36, 41, 46, 0.9);
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
         }
 
         header {
-            background-color: #24292e;
-            color: #fff;
-            padding: 2rem 1rem;
             text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            margin: 0.5rem 0 0;
-            font-size: 1.2rem;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-
-        section {
             margin-bottom: 2rem;
         }
 
-        section h2 {
-            color: #24292e;
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            object-fit: cover;
+            border: 3px solid #0366d6;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
             margin-bottom: 0.5rem;
         }
 
-        a {
+        header p {
+            font-size: 1.2rem;
+            color: #ddd;
+        }
+
+        section {
+            background-color: rgba(36, 41, 46, 0.8);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+
+        section h2 {
             color: #0366d6;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #0366d6;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+        }
+
+        section p, section ul {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #0366d6;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        a {
+            color: #36c5f0;
             text-decoration: none;
         }
 
@@ -61,46 +129,76 @@
 
         footer {
             text-align: center;
-            padding: 1rem;
-            background-color: #f0f0f0;
-            color: #555;
+            padding: 1.5rem;
+            background-color: rgba(36, 41, 46, 0.9);
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm Harold Guill</h1>
-        <p>Welcome to my GitHub About Me page</p>
-    </header>
 
-    <main>
-        <section>
+    <nav>
+        <div>Harold Guill</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Harold Guill">
+            <h1>Hi, I'm Harold Guill</h1>
+            <p>Software Developer | Tech Enthusiast | Lifelong Learner</p>
+        </header>
+
+        <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm a software enthusiast with a passion for building cool projects and exploring new technologies.
-                I love learning, coding, and sharing knowledge with the community.
+                I'm a software developer passionate about creating clean, functional, and modern web applications. 
+                I enjoy learning new technologies, solving problems, and contributing to the open-source community.
             </p>
         </section>
 
-        <section>
+        <section id="skills">
             <h2>Skills</h2>
+            <ul>
+                <li>JavaScript, Python, HTML/CSS</li>
+                <li>React, Node.js, Express</li>
+                <li>Git & GitHub version control</li>
+                <li>RESTful APIs and basic database management</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
             <p>
-                JavaScript, Python, HTML/CSS, Git, React, Node.js, and more.
+                You can explore some of my projects on my GitHub profile: 
+                <a href="https://github.com/guilliharold" target="_blank">guilliharold</a>.
             </p>
         </section>
 
-        <section>
-            <h2>Find Me Online</h2>
+        <section id="contact">
+            <h2>Contact</h2>
             <p>
-                Check out my GitHub: <a href="https://github.com/guilliharold" target="_blank">guilliharold</a><br>
+                Connect with me online: <br>
                 LinkedIn: <a href="#" target="_blank">Your LinkedIn</a><br>
-                Portfolio: <a href="#" target="_blank">Your Portfolio</a>
+                Portfolio: <a href="#" target="_blank">Your Portfolio</a><br>
+                Email: <a href="mailto:youremail@example.com">youremail@example.com</a>
             </p>
         </section>
-    </main>
+    </div>
 
     <footer>
-        &copy; 2025 Harold Guilline. All rights reserved.
+        &copy; 2025 Harold Guill. All rights reserved.
     </footer>
+
 </body>
 </html>
