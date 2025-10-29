@@ -82,12 +82,14 @@
         header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
         header p { font-size: 1rem; color: #ddd; }
 
+        /* Sections with scroll offset to fix navbar overlap */
         section {
             background-color: rgba(36, 41, 46, 0.8);
             padding: 2rem;
             margin-bottom: 1.5rem;
             border-radius: 10px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            scroll-margin-top: 80px; /* offset for sticky navbar */
         }
 
         section h2 {
