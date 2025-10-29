@@ -17,16 +17,18 @@
       text-align: center;
       overflow: hidden;
     }
-    /* Background video setup */
-    .video-bg {
+    /* Background image with blur */
+    body::before {
+      content: "";
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      background: url('assets/images/coding-1853305_1920.jpg') no-repeat center center fixed;
+      background-size: cover;
+      filter: blur(8px);
       z-index: -1;
-      filter: brightness(0.4);
     }
     .content {
       position: relative;
@@ -36,6 +38,7 @@
       justify-content: center;
       align-items: center;
       padding: 0 20px;
+      background-color: rgba(0,0,0,0.4); /* optional overlay for readability */
     }
     h1 {
       font-size: 2.5em;
@@ -62,17 +65,10 @@
   </style>
 </head>
 <body>
-  <!-- Background video -->
-  <video class="video-bg" autoplay muted loop>
-    <source src="assets/videos/1625-148614367_small.mp4" type="video/mp4">
-    <!-- Fallback message if video not supported -->
-    Your browser does not support HTML5 video.
-  </video>
-
   <div class="content">
     <h1>Digital Resume</h1>
     <p>This GitHub repository will soon host a fully interactive digital résumé showcasing experience, skills, and projects.</p>
-    <a href="https://github.com/guilliharold">Visit My GitHub Profile</a>
+    <a href="https://github.com/YOUR-USERNAME">Visit My GitHub Profile</a>
   </div>
 </body>
 </html>
