@@ -1,0 +1,188 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background: #0d0f14;
+    color: #f0f2f5;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Subtle radial glow behind the card */
+body::before {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(99, 120, 255, 0.07) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+
+    animation: fade-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    background: #13161e;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+
+    padding: 52px 44px;
+
+    text-align: center;
+
+    box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.03),
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Status badge ── */
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    color: #7c85a0;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 999px;
+    padding: 5px 14px;
+
+    margin-bottom: 28px;
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 6px #4ade80;
+    animation: pulse 2.5s ease-in-out infinite;
+    flex-shrink: 0;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.4; }
+}
+
+/* ── Name ── */
+h1 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+
+    margin-bottom: 10px;
+
+    /* Subtle shimmer gradient on the name */
+    background: linear-gradient(135deg, #ffffff 60%, #a0aacc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ── Tagline ── */
+.tagline {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: #6b7491;
+
+    margin-bottom: 18px;
+}
+
+/* ── Description ── */
+.description {
+    color: #7c85a0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+
+    margin-bottom: 36px;
+}
+
+/* ── Button ── */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+
+    padding: 13px 32px;
+    border-radius: 12px;
+
+    font-size: 0.92rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+
+    background: #ffffff;
+    color: #0d0f14;
+
+    transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    opacity: 0.95;
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+
+    .card {
+        padding: 40px 26px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
