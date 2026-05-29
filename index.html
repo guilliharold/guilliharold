@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harold Guilline — Digital Resume & Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">AM</div>
+    <ul class="nav-links">
+      <li><a href="#about" data-label="About">About</a></li>
+      <li><a href="#work" data-label="Work">Work</a></li>
+      <li><a href="#skills" data-label="Skills">Skills</a></li>
+      <li><a href="#contact" data-label="Contact">Contact</a></li>
+    </ul>
+    <button class="nav-hire" id="hireBtn">Hire Me</button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-left">
+      <div class="hero-tag reveal">Available for work — 2026</div>
+      <h1 class="hero-title">
+        <span class="line reveal">Digital</span>
+        <span class="line reveal italic">Designer</span>
+        <span class="line reveal">&amp; Developer</span>
+      </h1>
+      <p class="hero-desc reveal">
+        I craft interfaces that live at the intersection of clarity and character — building products people actually enjoy using.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#work" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card reveal">
+        <div class="hero-card-inner">
+          <div class="card-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-initials">AM</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">Harold Guilline</span>
+            <span class="card-role">UI/UX · Front-End · Brand</span>
+          </div>
+          <div class="card-status">
+            <span class="status-dot"></span>
+            <span>Open to work</span>
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="42">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="6">0</span>
+              <span class="stat-label">Years</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="18">0</span>
+              <span class="stat-label">Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-wrap">
+    <div class="marquee-track" id="marqueeTrack">
+      <span>Product Design</span><span class="sep">✦</span>
+      <span>React &amp; TypeScript</span><span class="sep">✦</span>
+      <span>Motion Design</span><span class="sep">✦</span>
+      <span>Figma</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>Web Performance</span><span class="sep">✦</span>
+      <span>Design Systems</span><span class="sep">✦</span>
+      <span>Accessibility</span><span class="sep">✦</span>
+      <span>Product Design</span><span class="sep">✦</span>
+      <span>React &amp; TypeScript</span><span class="sep">✦</span>
+      <span>Motion Design</span><span class="sep">✦</span>
+      <span>Figma</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>Web Performance</span><span class="sep">✦</span>
+      <span>Design Systems</span><span class="sep">✦</span>
+      <span>Accessibility</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="section-label reveal">— 01 / About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title reveal">Thoughtful work,<br /><em>honest craft.</em></h2>
+        <p class="reveal">I'm a product designer and front-end developer with 6 years of experience building digital products for startups and established brands. I believe great design is invisible — it gets out of the way and lets people do what they came to do.</p>
+        <p class="reveal">Currently based in San Francisco, open to remote collaboration worldwide.</p>
+        <a href="#" class="btn-outline reveal">Download Résumé ↓</a>
+      </div>
+      <div class="about-aside reveal">
+        <div class="aside-block">
+          <span class="aside-label">Education</span>
+          <span class="aside-val">BFA Interaction Design<br />California College of Arts, 2019</span>
+        </div>
+        <div class="aside-block">
+          <span class="aside-label">Currently</span>
+          <span class="aside-val">Senior Product Designer<br />@ Fictive Studio</span>
+        </div>
+        <div class="aside-block">
+          <span class="aside-label">Contact</span>
+          <span class="aside-val">alex@mercer.design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work section" id="work">
+    <div class="section-label reveal">— 02 / Selected Work</div>
+    <h2 class="section-title reveal">Projects that<br /><em>made a mark.</em></h2>
+    <div class="projects-grid">
+
+      <article class="project-card reveal" data-index="01">
+        <div class="project-thumb">
+          <div class="thumb-bg" style="--hue: 220deg"></div>
+          <span class="project-year">2025</span>
+        </div>
+        <div class="project-info">
+          <h3>Orbit — SaaS Dashboard</h3>
+          <p>End-to-end product design for an analytics platform serving 50k+ users. Reduced churn by 23% post-redesign.</p>
+          <div class="project-tags">
+            <span>Product Design</span><span>React</span><span>Design System</span>
+          </div>
+        </div>
+        <a href="#" class="project-link">View Case Study →</a>
+      </article>
+
+      <article class="project-card reveal" data-index="02">
+        <div class="project-thumb">
+          <div class="thumb-bg" style="--hue: 30deg"></div>
+          <span class="project-year">2024</span>
+        </div>
+        <div class="project-info">
+          <h3>Bloom — Brand Identity</h3>
+          <p>Full visual identity system for a sustainable lifestyle brand — from logomark to packaging and digital presence.</p>
+          <div class="project-tags">
+            <span>Branding</span><span>Motion</span><span>Figma</span>
+          </div>
+        </div>
+        <a href="#" class="project-link">View Case Study →</a>
+      </article>
+
+      <article class="project-card reveal" data-index="03">
+        <div class="project-thumb">
+          <div class="thumb-bg" style="--hue: 150deg"></div>
+          <span class="project-year">2024</span>
+        </div>
+        <div class="project-info">
+          <h3>Pulse — Health App</h3>
+          <p>iOS & web app for personal wellness tracking. Led UX research, wireframing, and front-end implementation.</p>
+          <div class="project-tags">
+            <span>UX Research</span><span>iOS</span><span>TypeScript</span>
+          </div>
+        </div>
+        <a href="#" class="project-link">View Case Study →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="section-label reveal">— 03 / Skills</div>
+    <h2 class="section-title reveal">Tools of<br /><em>the trade.</em></h2>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <h4>Design</h4>
+        <ul>
+          <li>Figma / FigJam</li>
+          <li>Prototyping &amp; User Testing</li>
+          <li>Design Systems</li>
+          <li>Motion &amp; Animation</li>
+          <li>Brand &amp; Typography</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h4>Development</h4>
+        <ul>
+          <li>HTML / CSS / JavaScript</li>
+          <li>React &amp; TypeScript</li>
+          <li>Next.js &amp; Tailwind</li>
+          <li>Node.js &amp; REST APIs</li>
+          <li>Git &amp; CI/CD</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h4>Process</h4>
+        <ul>
+          <li>Agile / Scrum</li>
+          <li>UX Research &amp; Interviews</li>
+          <li>Accessibility (WCAG)</li>
+          <li>A/B Testing</li>
+          <li>Stakeholder Alignment</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="section-label reveal">— 04 / Contact</div>
+    <div class="contact-inner">
+      <h2 class="contact-title reveal">Let's build<br /><em>something real.</em></h2>
+      <p class="contact-sub reveal">Whether you have a project in mind or just want to say hello — my inbox is always open.</p>
+      <a href="mailto:alex@mercer.design" class="contact-email reveal">alex@mercer.design</a>
+      <div class="socials reveal">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Dribbble</a>
+        <a href="#">Twitter / X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>© 2026 Harold Guilline</span>
+    <span>Designed &amp; built by hand.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
