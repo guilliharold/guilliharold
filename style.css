@@ -413,3 +413,18 @@ body {
   color: rgba(196, 181, 253, 1);
   border-color: rgba(196, 181, 253, 0.7);
 }
+
+/* ── Inline Link Override ────────────────────── */
+.inline-link,
+.inline-link:link,
+.inline-link:visited {
+  color: rgba(196, 181, 253, 0.8) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(196, 181, 253, 0.3);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.inline-link:hover {
+  color: rgba(196, 181, 253, 1) !important;
+  border-color: rgba(196, 181, 253, 0.7);
+}
