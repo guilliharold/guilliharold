@@ -400,3 +400,16 @@ body {
   padding-left: 10px;
   border-left: 2px solid rgba(196, 181, 253, 0.3);
 }
+
+/* ── Inline Link ─────────────────────────────── */
+.inline-link {
+  color: rgba(196, 181, 253, 0.8);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(196, 181, 253, 0.3);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.inline-link:hover {
+  color: rgba(196, 181, 253, 1);
+  border-color: rgba(196, 181, 253, 0.7);
+}
