@@ -34,7 +34,7 @@ body {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 860px;
+  max-width: 880px;
   margin: 0 auto;
   padding: 64px 32px 96px;
   display: flex;
