@@ -1,7 +1,5 @@
 # Harold Guilline
 
----
-
 ## 👋 About Me
 
 Hi, I'm Harold! this section is currently a work in progress. Apologies for the inconvenience.
