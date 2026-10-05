@@ -1,7 +1,5 @@
 # Harold Guilline
 
-*"Everything's got to end sometime. Otherwise, nothing would ever get started." — The 11th Doctor*
-
 ---
 
 ## 👋 About Me
