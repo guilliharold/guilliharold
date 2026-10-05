@@ -17,8 +17,8 @@ body {
   inset: -200px;
   background:
     radial-gradient(circle at 25% 25%, rgba(124, 58, 237, 0.22), transparent 42%),
-    radial-gradient(circle at 75% 65%, rgba(16, 185, 129, 0.16), transparent 44%),
-    radial-gradient(circle at 55% 15%, rgba(59, 130, 246, 0.10), transparent 36%);
+    radial-gradient(circle at 75% 65%, rgba(20, 184, 166, 0.18), transparent 44%),
+    radial-gradient(circle at 55% 15%, rgba(6, 182, 212, 0.10), transparent 36%)
   filter: blur(70px);
   animation: drift 14s ease-in-out infinite alternate;
   z-index: 0;
