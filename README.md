@@ -25,6 +25,34 @@ This profile is a space to share my interests, projects and things I'm learning 
 
 </details>
 
+<details>
+<summary><b>Firefighter — Country Fire Authority (CFA)</b></summary>
+<br>
+
+*Mar 2023 – Present*
+
+- Respond to emergency incidents as part of a trained and coordinated firefighting team.
+- Assist with fire suppression and other emergency response activities.
+- Operate and communicate effectively using emergency communications procedures and equipment.
+- Assist at incidents including structure fires, grass and bushfires, and vehicle accidents.
+- Work collaboratively with CFA members and other emergency services in challenging and dynamic environments.
+- Follow established safety procedures and operational protocols during emergency incidents.
+
+</details>
+
+<details>
+<summary><b>Retail Sales Assistant — AG Warehouse</b></summary>
+<br>
+
+*Feb 2023 – Present*
+
+- Provide friendly and professional customer service to assist customers with their enquiries and needs.
+- Assist customers in selecting products by providing relevant information and recommendations.
+- Maintain a clean, organised and presentable store environment.
+- Work collaboratively with team members to support day-to-day store operations.
+
+</details>
+
 ---
 
 ## 📜 Qualifications & Certificates
