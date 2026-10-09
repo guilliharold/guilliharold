@@ -12,7 +12,18 @@ This profile is a space to share my interests, projects and things I'm learning 
 
 ## 💼 Career History
 
-WIP
+<details>
+<summary><b>Information Technology Support Trainee — St Mary of the Angels Secondary College</b></summary>
+<br>
+
+*Jan 2025 – Present*
+
+- Provide clear and concise technical support to staff and students.
+- Support both Microsoft Windows and Apple macOS environments across a range of computers and devices.
+- Troubleshoot hardware, software, printing and various other IT issues.
+- Work collaboratively with team members to diagnose and resolve technical issues.
+
+</details>
 
 ---
 
