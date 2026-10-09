@@ -6,24 +6,9 @@ Hi! I'm an IT enthusiast with a background in IT support and retail, and a Certi
 
 ---
 
-## 💼 Experience
+## 💼 Career History
 
 WIP
-
----
-
-## 🛠️ Skills
-
-- Customer Service and Communication
-- Emergency Response
-- Firefighting
-- IT Support and Troubleshooting
-- Judgement and Decision Making
-- Microsoft Operating Systems
-- Problem Solving
-- Risk Management
-- Teamwork and Collaboration
-- Workplace Health and Safety 
 
 ---
 
@@ -82,6 +67,21 @@ WIP
 | SITXFSA001 | Use Hygienic Practices for Food Safety |
 
 </details>
+
+---
+
+## 🛠️ Skills
+
+- Customer Service and Communication
+- Emergency Response
+- Firefighting
+- IT Support and Troubleshooting
+- Judgement and Decision Making
+- Microsoft Operating Systems
+- Problem Solving
+- Risk Management
+- Teamwork and Collaboration
+- Workplace Health and Safety 
 
 ---
 
