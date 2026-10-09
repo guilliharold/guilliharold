@@ -41,21 +41,7 @@ WIP
 </details>
 
 <details>
-<summary><b>Health, Safety & Compliance</b></summary>
-<br>
-
-| Code | Certificate |
-|------|-------------|
-| HLTAID009 | Provide Cardiopulmonary Resuscitation |
-| HLTAID010 | Provide Basic Emergency Life Support |
-| HLTAID011 | Provide First Aid |
-| SITHFAB021 | Provide Responsible Service of Alcohol |
-| SITXFSA001 | Use Hygienic Practices for Food Safety |
-
-</details>
-
-<details>
-<summary><b>Public Safety & Emergency Management</b></summary>
+<summary><b>Fire and Emergency Responsey</b></summary>
 <br>
 
 | Code | Certificate |
@@ -69,6 +55,31 @@ WIP
 | PUAOPE013 | Operate Communications Systems and Equipment |
 | PUATEA001 | Work in a Team |
 | PUAWHS002 | Maintain Safety at an Incident Scene |
+
+</details>
+
+<details>
+<summary><b>First Aid</b></summary>
+<br>
+
+| Code | Certificate |
+|------|-------------|
+| HLTAID009 | Provide Cardiopulmonary Resuscitation |
+| HLTAID010 | Provide Basic Emergency Life Support |
+| HLTAID011 | Provide First Aid |
+
+</details>
+
+
+<details>
+<summary><b>Hospitality and Food Safety</b></summary>
+<br>
+
+| Code | Certificate |
+|------|-------------|
+| SITHFAB021 | Provide Responsible Service of Alcohol |
+| SITHFAB025 | Prepare and Serve Espresso Coffee |
+| SITXFSA001 | Use Hygienic Practices for Food Safety |
 
 </details>
 
