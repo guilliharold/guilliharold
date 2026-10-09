@@ -2,7 +2,9 @@
 
 ## 👋 Personal Summary
 
-Hi! I'm an IT enthusiast with a background in IT support and retail, and a Certificate IV in Information Technology. Outside of tech, I'm involved in community volunteering and have an interest in emergency services, public safety and firefighting. I'm always looking to learn new things, develop my technical skills and explore projects that combine my interests in technology and the community.
+Hi! I'm an IT enthusiast with a background in IT support and retail, and a Certificate IV in Information Technology.
+
+Outside of tech, I'm involved in community volunteering and have an interest in emergency services, public safety and firefighting. I'm always looking to learn new things, develop my technical skills and explore projects that combine my interests in technology and the community.
 
 ---
 
