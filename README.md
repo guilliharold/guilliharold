@@ -26,7 +26,7 @@ WIP
 </details>
 
 <details>
-<summary><b>Fire and Emergency Responsey</b></summary>
+<summary><b>Fire and Emergency Response</b></summary>
 <br>
 
 | Code | Certificate |
