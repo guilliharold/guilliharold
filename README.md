@@ -1,5 +1,3 @@
-# Harold Guilline
-
 ## 👋 Personal Summary
 
 Hi, I'm Harold!
