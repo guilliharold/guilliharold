@@ -8,19 +8,22 @@ Hi, I'm Harold! this section is currently a work in progress. Apologies for the 
 
 ## 💼 Experience
 
-I have hands-on experience across three fields — IT support, retail, and emergency services. As an IT Support Trainee I assist clients with day-to-day technical needs across Windows and macOS environments. In retail I provide customer service and support store operations. As a volunteer firefighter with the CFA I respond to a range of emergency incidents, operating communications equipment and working alongside other emergency services.
+WIP
 
 ---
 
 ## 🛠️ Skills
 
-- Customer Service & Communication
-- IT Support & Troubleshooting
+- Customer Service and Communication
 - Emergency Response
-- Risk Management
+- Firefighting
+- IT Support and Troubleshooting
+- Judgement and Decision Making
+- Microsoft Operating Systems
 - Problem Solving
-- Teamwork & Collaboration
-- Workplace Health & Safety
+- Risk Management
+- Teamwork and Collaboration
+- Workplace Health and Safety 
 
 ---
 
