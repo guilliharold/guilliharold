@@ -81,7 +81,7 @@ a:focus-visible,
 .avatar {
   width: 88px;
   height: 88px;
-  border-radius: 50%;
+  border-radius: 25%;
   flex-shrink: 0;
   overflow: hidden;
   background: var(--pill-bg);
