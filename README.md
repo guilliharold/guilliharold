@@ -1,8 +1,6 @@
 ## 👋 Personal Summary
 
-Hi, I'm Harold! I'm interested in all things technology, with a background in IT support and a Certificate IV in Information Technology. I enjoy learning new things, exploring different areas of tech, and developing my skills along the way.
-
-Outside of technology, I'm involved in community volunteering with an interest in emergency services, firefighting and public safety. This profile is a space to share my interests, projects and things I'm learning along the way.
+Hi, I'm Harold! I'm passionate about technology, with a background in IT support and a Certificate IV in Information Technology. I enjoy exploring new areas of tech and developing my skills. Outside of IT, I'm involved in community volunteering, with interests in emergency services, firefighting and public safety. This profile showcases my interests, projects and ongoing learning.
 
 ---
 
