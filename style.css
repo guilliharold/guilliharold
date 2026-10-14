@@ -286,6 +286,37 @@ a:focus-visible,
   line-height: 1;
 }
 
+/* ── Projects ───────────────────────────────── */
+.entry .about-text { margin-bottom: 16px; }
+
+.project-bullets { margin-bottom: 20px; }
+
+.tag-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tag-list li {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 100px;
+  background: var(--pill-bg);
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  line-height: 1;
+}
+
+.project-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 /* ── Certificates ───────────────────────────── */
 .cert-grid {
   display: flex;
@@ -370,6 +401,7 @@ a:focus-visible,
   .cert-list li { flex-direction: column; gap: 2px; }
   .cert-code    { min-width: unset; }
   .cert-year    { margin-left: 0; }
+  .project-actions { flex-direction: column; align-items: stretch; gap: 14px; text-align: center; }
 }
 
 /* ── Reduced motion ─────────────────────────── */
