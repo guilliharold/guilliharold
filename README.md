@@ -57,7 +57,7 @@ Hi, I'm Harold! I'm passionate about technology, with a background in IT support
 
 A secure, web-based password and passphrase generator designed to assist students and the IT professionals who support them. Built with HTML, CSS and JavaScript.
 
-🔗 [Visit PassCraft Education](YOUR-PASSCRAFT-URL)
+🔗 [Visit PassCraft Education](https://guilliharold.github.io/passcraft-education/)
 
 </details>
 
