@@ -324,6 +324,16 @@ a:focus-visible,
   min-width: 100px;
 }
 
+.cert-year {
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-3);
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
 .cert-name {
   font-size: 0.9rem;
   color: var(--text-2);
@@ -359,6 +369,7 @@ a:focus-visible,
   .entry-meta   { flex-direction: column; gap: 6px; }
   .cert-list li { flex-direction: column; gap: 2px; }
   .cert-code    { min-width: unset; }
+  .cert-year    { margin-left: 0; }
 }
 
 /* ── Reduced motion ─────────────────────────── */
