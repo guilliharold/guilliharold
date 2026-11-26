@@ -1,3 +1,28 @@
+/* ── Fonts (self-hosted Inter) ──────────────── */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/inter/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('assets/fonts/inter/Inter-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('assets/fonts/inter/Inter-SemiBold.woff2') format('woff2');
+}
+
 :root {
   --bg: #f8fafc;
   --card: #ffffff;
@@ -428,4 +453,70 @@ a:focus-visible,
   .card { box-shadow: none; border: none; padding: 12px 0; break-inside: avoid-page; }
   .fade-in { animation: none; }
   .button, .pulse-dot { display: none; }
+}
+/* ── Collapsible career entries ─────────────── */
+.entry-summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 8px; }
+
+.job { padding: 0; }
+.job:first-of-type { padding-top: 0; }
+
+.entry-summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 22px 0;
+  cursor: pointer;
+  list-style: none;
+}
+.entry-summary::-webkit-details-marker { display: none; }
+.entry-summary .entry-meta { flex: 1; min-width: 0; margin-bottom: 0; }
+.entry-summary:hover .entry-role { color: var(--accent-strong); }
+
+.entry-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding-top: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-3);
+  white-space: nowrap;
+}
+.entry-toggle::before { content: "Show details"; }
+.job[open] .entry-toggle::before { content: "Hide details"; }
+.entry-toggle::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.2s ease;
+}
+.job[open] .entry-toggle::after { transform: rotate(-135deg) translate(-2px, 0); }
+
+.entry-body {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 0 0 26px;
+}
+.job[open] .entry-body { animation: fade-up 0.25s ease-out both; }
+
+.entry-bullets { max-width: 75ch; }
+
+@media (max-width: 700px) {
+  .entry-summary { flex-direction: column; gap: 8px; }
+  .entry-toggle { padding-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .job[open] .entry-body { animation: none; }
+  .entry-toggle::after { transition: none; }
+}
+
+@media print {
+  .entry-toggle { display: none; }
+  .entry-summary { padding: 10px 0; }
 }
