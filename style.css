@@ -51,9 +51,14 @@
 
 body {
   min-height: 100vh;
-  background: var(--bg);
   color: var(--text);
   line-height: 1.5;
+
+  /* Topographic texture (Hero Patterns). Colour shows if the file is missing. */
+  background-color: var(--bg);
+  background-image: url('assets/images/topography.svg');
+  background-repeat: repeat;
+  background-size: 600px 600px;
 }
 
 /* Static background: kept in the markup, but no longer animated or blurred */
@@ -448,7 +453,7 @@ a:focus-visible,
     --ok: #166534; --ok-bg: #fff; --ok-border: #cbd5e1;
     --pill-bg: #fff; --shadow: none;
   }
-  body { min-height: 0; }
+  body { min-height: 0; background: #fff; background-image: none; }
   .wrap { max-width: none; padding: 0; gap: 12px; }
   .card { box-shadow: none; border: none; padding: 12px 0; break-inside: avoid-page; }
   .fade-in { animation: none; }
